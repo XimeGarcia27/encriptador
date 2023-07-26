@@ -49,7 +49,7 @@ main{
 
 .mensaje{
     height: 630px;
-    width: 400px;
+    width: 30%;
     background: white;
     background-image: url("/imagenes/Muñeco.png");
     background-repeat: no-repeat;
