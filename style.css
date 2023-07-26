@@ -116,6 +116,10 @@ main{
         flex-direction: column;
     }
 
+    main {
+        margin-left: 180px;
+    }
+
     .encabezado {
         padding: 0%;
     }
