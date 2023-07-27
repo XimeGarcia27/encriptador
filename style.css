@@ -204,6 +204,7 @@ main{
     .mensaje {
         margin-left: -10%;
         position: relative;
+        width: 400px;
     }
 
     .copiar {
