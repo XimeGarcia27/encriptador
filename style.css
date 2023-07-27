@@ -117,7 +117,16 @@ main{
     }
 
     main {
-        margin-left: 180px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0%;
+    }
+
+    .sectionMensaje {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .encabezado {
@@ -130,12 +139,14 @@ main{
     
     .text-area {
         height: 200px;
-        width: 100px;
+        width: 80%;
         font-size: medium;
     }
 
     .botones{
         flex-direction: column;
+        display: flex;
+        justify-content: center;
     }
 
     .btn-encriptar {
@@ -147,22 +158,21 @@ main{
     }
 
     .mensaje {
-        margin-top: 500px;
+        margin-left: 0px;
         position: absolute;
-        margin-left: -45%;
+        padding: 0%;
+        margin-top: 1rem;
     }
 
     .copiar {
-        margin-top: 1000px;
-        margin-left: -85%;
+        margin-left: 0px;
     }
 
-    section {
-        margin-left: -90%;
+    .section {       
         display: flex;
-        align-items: center;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
     }
 
     .footer {
@@ -204,7 +214,6 @@ main{
     .mensaje {
         margin-left: -10%;
         position: relative;
-        width: 200px;
     }
 
     .copiar {
